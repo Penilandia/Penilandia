@@ -2,7 +2,7 @@
   "name": "penilandia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Penilandia/Penilandia.git",
+  "homepage": "https://Penilandia.github.io/Penilandia",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
