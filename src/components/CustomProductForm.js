@@ -7,19 +7,19 @@ function CustomProductForm() {
   const [length, setLength] = useState("");
   const [width, setWidth] = useState("");
 
-  const telas = [
-  { id: "tela1", img: process.env.PUBLIC_URL + "/telas/Tela1.jpeg" },
-  { id: "tela2", img: process.env.PUBLIC_URL + "/telas/Tela2.jpeg" },
-  { id: "tela3", img: process.env.PUBLIC_URL + "/telas/Tela3.jpeg" },
-  { id: "tela4", img: process.env.PUBLIC_URL + "/telas/Tela4.jpeg" },
-  { id: "tela5", img: process.env.PUBLIC_URL + "/telas/Tela5.jpeg" },
-  { id: "tela6", img: process.env.PUBLIC_URL + "/telas/Tela6.jpeg" },
-  { id: "tela7", img: process.env.PUBLIC_URL + "/telas/Tela7.jpeg" },
-  { id: "tela8", img: process.env.PUBLIC_URL + "/telas/Tela8.jpeg" },
-  { id: "tela9", img: process.env.PUBLIC_URL + "/telas/Tela9.jpeg" },
-  { id: "tela10", img: process.env.PUBLIC_URL + "/telas/Tela10.jpeg" },
-  { id: "tela11", img: process.env.PUBLIC_URL + "/telas/Tela11.jpeg" },
-  { id: "tela12", img: process.env.PUBLIC_URL + "/telas/Tela12.jpeg" }
+ const telas = [
+  { id: "tela1", img: "/telas/Tela1.jpeg" },
+  { id: "tela2", img: "/telas/Tela2.jpeg" },
+  { id: "tela3", img: "/telas/Tela3.jpeg" },
+  { id: "tela4", img: "/telas/Tela4.jpeg" },
+  { id: "tela5", img: "/telas/Tela5.jpeg" },
+  { id: "tela6", img: "/telas/Tela6.jpeg" },
+  { id: "tela7", img: "/telas/Tela7.jpeg" },
+  { id: "tela8", img: "/telas/Tela8.jpeg" },
+  { id: "tela9", img: "/telas/Tela9.jpeg" },
+  { id: "tela10", img: "/telas/Tela10.jpeg" },
+  { id: "tela11", img: "/telas/Tela11.jpeg" },
+  { id: "tela12", img: "/telas/Tela12.jpeg" },
 ];
 
   const handleSubmit = (e) => {
