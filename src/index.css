@@ -261,6 +261,195 @@ p {
   transform: scale(1.05);
 }
 
+/* ---------- CUSTOM PRODUCT FORM ---------- */ 
+.custom-box { 
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 60px auto;
+} 
+
+.custom-box h3 { 
+  margin-bottom: 20px;
+  color: #ff8c42;
+} 
+
+.custom-box p { 
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333; 
+} 
+
+.custom-box .btn-hero { 
+  margin-top: 20px; 
+  background-color: #ff8c42; 
+  color: white; 
+  border: none; 
+  padding: 12px 25px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: 0.3s; 
+} 
+
+.custom-box .btn-hero:hover:not(:disabled) { 
+  background-color: #e67630;
+} 
+
+.custom-box .btn-hero:disabled { 
+  background-color: #ccc; 
+  cursor: not-allowed; 
+} 
+
+/* ---------- HORIZONTAL FORM ---------- */ 
+.horizontal-form { 
+  display: flex; 
+  gap: 30px; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: flex-start; 
+  max-width: 900px; 
+  margin: 0 auto 60px auto; 
+  text-align: left; 
+  padding: 20px; 
+} 
+
+.horizontal-form .preview, .horizontal-form .options { 
+  flex: 1; min-width: 280px; 
+} 
+
+/* Vista previa */ 
+.bed-preview { 
+  background-color: #fdf5f0; 
+  border: 2px dashed #ff8c42; 
+  border-radius: 12px; 
+  padding: 20px; 
+  min-height: 200px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.bed-preview img { 
+  max-width: 100%; 
+  max-height: 150px; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
+} 
+
+/* TELAS GRID */ 
+.telas-grid { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 15px; 
+  margin-bottom: 20px; 
+} 
+
+.telas-grid label { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  cursor: pointer; 
+} 
+
+.telas-grid label img { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  border: 2px solid transparent; 
+  margin-bottom: 5px; 
+} 
+
+.telas-grid label input[type="radio"] {
+  display: none; 
+} 
+
+.telas-grid label input[type="radio"]:checked + img { 
+  border-color: #ff8c42; 
+  transform: scale(1.05); 
+} 
+
+.telas-grid label span { 
+  font-weight: 500; 
+  color: #333; 
+} 
+
+/* Inputs de medidas */ 
+.size-inputs { 
+  display: flex; 
+  justify-content: flex-start; 
+  gap: 10px; 
+  margin: 10px 0 20px 0; 
+} .size-inputs input { 
+  width: 80px; 
+  padding: 8px 10px; 
+  font-size: 0.95rem; 
+  border-radius: 6px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+} 
+
+/* ---------- NUEVA SECCIÓN: FORMA DE LA CAMITA ---------- */ 
+.shape-options { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 12px; 
+  margin: 10px 0 20px 0; 
+} 
+
+a .shape-options label { 
+  display: flex; 
+  align-items: center; 
+  gap: 6px; 
+  background-color: #fffaf5; 
+  border: 2px solid #ddd;
+   border-radius: 8px; 
+   padding: 8px 14px; 
+   cursor: pointer; 
+   transition: all 0.25s ease; 
+   font-size: 0.95rem; 
+   color: #333; 
+   font-weight: 500; 
+  } 
+  
+  .shape-options label:hover { 
+    border-color: #ff8c42; 
+    background-color: #fff2e6; 
+  } 
+  
+  .shape-options input[type="radio"] { 
+    accent-color: #ff8c42; 
+    /* color de check */ } 
+    
+  .shape-options input[type="radio"]:checked + span, 
+  .shape-options input[type="radio"]:checked ~ span { 
+    color: #ff8c42; font-weight: 600; 
+  }
+/* Vista previa adaptada a la forma */ 
+.bed-preview.round { 
+  border-radius: 50%; 
+  width: 200px; 
+  height: 200px; 
+  overflow: hidden; 
+} 
+
+.bed-preview.square { 
+  border-radius: 10px; 
+} 
+
+.bed-preview.rectangle { 
+  border-radius: 12px;
+  width: 250px; 
+  height: 160px; 
+}
+
 /* ---------- CLIENTES ---------- */
 .clients-section {
   background: #fff1e6;
