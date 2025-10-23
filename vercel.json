@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/telas/(.*)",
+      "dest": "/telas/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
