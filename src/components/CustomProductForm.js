@@ -13,7 +13,7 @@ function CustomProductForm() {
   { id: "tela3", img: "/Telas/Tela3.jpeg" },
   { id: "tela4", img: "/Telas/Tela4.jpeg" },
   { id: "tela5", img: "/Telas/Tela5.jpeg" },
-  { id: "tela6", img: "/Telas/Tela6.jpeg" },
+  { id: "tela6", img: "/Telas/Tela13.jpeg" },
   { id: "tela7", img: "/Telas/Tela7.jpeg" },
   { id: "tela8", img: "/Telas/Tela8.jpeg" },
   { id: "tela9", img: "/Telas/Tela9.jpeg" },
