@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Penilandia/Penilandia.git/static/css/main.c79df2b4.css",
-    "main.js": "/Penilandia/Penilandia.git/static/js/main.d89565ed.js",
-    "index.html": "/Penilandia/Penilandia.git/index.html",
-    "main.c79df2b4.css.map": "/Penilandia/Penilandia.git/static/css/main.c79df2b4.css.map",
-    "main.d89565ed.js.map": "/Penilandia/Penilandia.git/static/js/main.d89565ed.js.map"
+    "main.css": "/Penilandia/Penilandia/static/css/main.c79df2b4.css",
+    "main.js": "/Penilandia/Penilandia/static/js/main.d89565ed.js",
+    "index.html": "/Penilandia/Penilandia/index.html",
+    "main.c79df2b4.css.map": "/Penilandia/Penilandia/static/css/main.c79df2b4.css.map",
+    "main.d89565ed.js.map": "/Penilandia/Penilandia/static/js/main.d89565ed.js.map"
   },
   "entrypoints": [
     "static/css/main.c79df2b4.css",
