@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "/telas/(.*)",
+      "src": "^/telas/(.*)$",
       "dest": "/telas/$1"
     },
     {
