@@ -8,18 +8,18 @@ function CustomProductForm() {
   const [width, setWidth] = useState("");
 
   const telas = [
-    { id: "tela1", img: "/telas/Tela 1.jpeg" },
-    { id: "tela2", img: "/telas/Tela 2.jpeg" },
-    { id: "tela3", img: "/telas/Tela 3.jpeg" },
-    { id: "tela4", img: "/telas/Tela 4.jpeg" },
-    { id: "tela5", img: "/telas/Tela 5.jpeg" },
-    { id: "tela6", img: "/telas/Tela 7.jpeg" },
-    { id: "tela7", img: "/telas/Tela 8.jpeg" },
-    { id: "tela8", img: "/telas/Tela 9.jpeg" },
-    { id: "tela9", img: "/telas/Tela 10.jpeg" },
-    { id: "tela10", img: "/telas/Tela 11.jpeg" },
-    { id: "tela11", img: "/telas/Tela 12.jpeg" },
-    { id: "tela12", img: "/telas/Tela 13.jpeg" },
+    { id: "tela1", img: "/telas/Tela1.jpeg" },
+    { id: "tela2", img: "/telas/Tela2.jpeg" },
+    { id: "tela3", img: "/telas/Tela3.jpeg" },
+    { id: "tela4", img: "/telas/Tela4.jpeg" },
+    { id: "tela5", img: "/telas/Tela5.jpeg" },
+    { id: "tela6", img: "/telas/Tela7.jpeg" },
+    { id: "tela7", img: "/telas/Tela8.jpeg" },
+    { id: "tela8", img: "/telas/Tela9.jpeg" },
+    { id: "tela9", img: "/telas/Tela10.jpeg" },
+    { id: "tela10", img: "/telas/Tela11.jpeg" },
+    { id: "tela11", img: "/telas/Tela12.jpeg" },
+    { id: "tela12", img: "/telas/Tela13.jpeg" },
   ];
 
   const handleSubmit = (e) => {
