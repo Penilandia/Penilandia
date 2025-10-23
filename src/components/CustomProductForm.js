@@ -1,20 +1,6 @@
 import React, { useState } from "react";
 import { useCart } from "../context/CartContext";
 
-// IMPORTAMOS TODAS LAS TELAS
-import tela1 from "../assets/telas/Tela1.jpeg";
-import tela2 from "../assets/telas/Tela2.jpeg";
-import tela3 from "../assets/telas/Tela3.jpeg";
-import tela4 from "../assets/telas/Tela4.jpeg";
-import tela5 from "../assets/telas/Tela5.jpeg";
-import tela6 from "../assets/telas/Tela6.jpeg";
-import tela7 from "../assets/telas/Tela7.jpeg";
-import tela8 from "../assets/telas/Tela8.jpeg";
-import tela9 from "../assets/telas/Tela9.jpeg";
-import tela10 from "../assets/telas/Tela10.jpeg";
-import tela11 from "../assets/telas/Tela11.jpeg";
-import tela12 from "../assets/telas/Tela12.jpeg";
-
 function CustomProductForm() {
   const { addToCart } = useCart();
   const [selectedFabric, setSelectedFabric] = useState("");
@@ -22,18 +8,18 @@ function CustomProductForm() {
   const [width, setWidth] = useState("");
 
   const telas = [
-    { id: "tela1", img: tela1 },
-    { id: "tela2", img: tela2 },
-    { id: "tela3", img: tela3 },
-    { id: "tela4", img: tela4 },
-    { id: "tela5", img: tela5 },
-    { id: "tela6", img: tela6 },
-    { id: "tela7", img: tela7 },
-    { id: "tela8", img: tela8 },
-    { id: "tela9", img: tela9 },
-    { id: "tela10", img: tela10 },
-    { id: "tela11", img: tela11 },
-    { id: "tela12", img: tela12 },
+    { id: "tela1", img: "/telas/Tela1.jpeg" },
+    { id: "tela2", img: "/telas/Tela2.jpeg" },
+    { id: "tela3", img: "/telas/Tela3.jpeg" },
+    { id: "tela4", img: "/telas/Tela4.jpeg" },
+    { id: "tela5", img: "/telas/Tela5.jpeg" },
+    { id: "tela6", img: "/telas/Tela6.jpeg" },
+    { id: "tela7", img: "/telas/Tela7.jpeg" },
+    { id: "tela8", img: "/telas/Tela8.jpeg" },
+    { id: "tela9", img: "/telas/Tela9.jpeg" },
+    { id: "tela10", img: "/telas/Tela10.jpeg" },
+    { id: "tela11", img: "/telas/Tela11.jpeg" },
+    { id: "tela12", img: "/telas/Tela12.jpeg" },
   ];
 
   const handleSubmit = (e) => {
