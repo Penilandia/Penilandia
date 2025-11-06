@@ -1086,8 +1086,9 @@ a.product-info h2 {
   .dropdown-item:hover { background-color: #ffe5d0; color: #ff8c42; }
 
   .logo-img {
-  width: 60px; 
+  width: 60px;
   height: auto;
+  border-radius: 10px;
 }
 
 .Logo {
