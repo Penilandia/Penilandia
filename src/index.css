@@ -1084,3 +1084,13 @@ a.product-info h2 {
   .dropdown-item { padding: 10px; cursor: pointer; transition: background-color 0.2s ease; } 
   
   .dropdown-item:hover { background-color: #ffe5d0; color: #ff8c42; }
+
+  .logo-img {
+  width: 120px;  /* podés ajustar el tamaño a gusto */
+  height: auto;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}

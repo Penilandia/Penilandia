@@ -1,3 +1,4 @@
+import logo from "../Logo.png";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
@@ -15,7 +16,9 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="logo">Penilandia</div>
+      <div className="Logo">
+        <img src={logo} alt="Penilandia Logo" className="logo-img" />
+      </div>
 
       <button 
         className="menu-toggle" 
@@ -41,5 +44,6 @@ function Header() {
     </header>
   );
 }
+
 
 export default Header;
