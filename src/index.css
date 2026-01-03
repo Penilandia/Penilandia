@@ -1230,3 +1230,139 @@ html, body {
     overflow-x: hidden;
   }
 }
+
+/* ====== FIX DEFINITIVO INSTAGRAM ====== */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* Evita que cualquier div rompa el ancho */
+* {
+  box-sizing: border-box;
+}
+
+/* Instagram WebView hack */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  section, div {
+    max-width: 100%;
+  }
+}
+
+/* ============================= */
+/* FIXES MOBILE – NO TOCA DESKTOP */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  /* Prevención real de overflow en Instagram */
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* HEADER */
+  .header {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    max-width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+
+  .hero h1,
+  .hero p {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  /* NAV MOBILE – evita scroll lateral por translateX */
+  .nav {
+    right: -100%;
+    transform: none !important;
+    width: calc(100% - 20px);
+    max-width: 320px;
+  }
+
+  .right-side.active .nav {
+    right: 10px;
+  }
+
+  /* PRODUCT LIST / CARDS */
+  .product-list,
+  .products-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .product-card {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* PRODUCT DETAIL */
+  .product-detail-card {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  /* FORMS */
+  form,
+  .horizontal-form {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* IMAGES */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* WHATSAPP FLOATING BUTTON – compatible Instagram */
+  .whatsapp-float {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    z-index: 9999;
+  }
+
+}
+
+/* FIX selector inválido */
+.shape-options label {
+  max-width: 100%;
+}
