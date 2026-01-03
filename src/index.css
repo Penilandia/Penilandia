@@ -1095,3 +1095,76 @@ a.product-info h2 {
   display: flex;
   align-items: center;
 }
+
+/* ===============================
+   FIXES SOLO PARA MOBILE
+   NO AFECTA DESKTOP
+================================ */
+
+@media (max-width: 768px) {
+
+  /* Evita scroll horizontal */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Header más compacto */
+  .header {
+    padding: 15px 20px;
+  }
+
+  /* Menú móvil que no se sale */
+  .nav {
+    max-width: 90vw;
+    right: 10px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-img {
+    justify-content: center;
+  }
+
+  /* BOTÓN VOLVER (ProductDetail) */
+  .back-btn {
+    margin-left: 0 !important;
+    padding-left: 10px;
+  }
+
+  /* CARD PRODUCTO DETALLE */
+  .product-detail-card {
+    padding: 25px;
+  }
+
+  /* DROPDOWN VARIANTES */
+  .dropdown-content {
+    position: absolute;
+    left: 0 !important;
+    top: 110%;
+    width: 100%;
+  }
+
+  /* FORM PERSONALIZADO */
+  .horizontal-form {
+    padding: 10px;
+  }
+
+  /* CHECKOUT / CART */
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* WHATSAPP FLOAT */
+  .whatsapp-float {
+    right: 15px;
+    bottom: 15px;
+  }
+}
