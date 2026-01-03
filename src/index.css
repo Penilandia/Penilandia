@@ -1366,3 +1366,37 @@ html, body {
 .shape-options label {
   max-width: 100%;
 }
+
+/* ===== FORCE MOBILE LAYOUT FOR INSTAGRAM ===== */
+@media (max-width: 900px) {
+
+  /* HERO */
+  .hero {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  /* NAVBAR */
+  .navbar-menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  /* PRODUCT GRID */
+  .product-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
