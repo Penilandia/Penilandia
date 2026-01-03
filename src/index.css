@@ -1185,9 +1185,9 @@ a.product-info h2 {
 /* ===== WHATSAPP FLOAT BUTTON MOBILE FIX ===== */
 .whatsapp-float {
   position: fixed;
-  right: 16px;
-  bottom: 16px;
-  z-index: 999;
+  right: env(safe-area-inset-right, 16px);
+  bottom: env(safe-area-inset-bottom, 16px);
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {
@@ -1204,6 +1204,28 @@ a.product-info h2 {
   .product-detail-card,
   .cart-page,
   .horizontal-form {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* ===== INSTAGRAM IN-APP BROWSER FIX ===== */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .hero,
+  .navbar,
+  .products,
+  .product-grid,
+  .section {
     max-width: 100%;
     overflow-x: hidden;
   }
