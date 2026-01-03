@@ -1,0 +1,40 @@
+.about-section {
+  padding: 80px 20px;
+  background: #fffafc;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #ff8c42;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #444;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.about-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.about-gallery img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-gallery img:hover {
+  transform: scale(1.05);
+}

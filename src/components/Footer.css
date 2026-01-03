@@ -1,0 +1,140 @@
+/* ---------- FOOTER ---------- */
+.footer {
+  width: 100%;
+  background-color: #ffeaf4;
+  color: #333;
+  padding: 60px 0 20px;
+  font-family: "Poppins", sans-serif;
+  border-top: 3px solid #ffb6c1;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-about {
+  text-align: left;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-about p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 5px;
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.footer-columns > div {
+  text-align: left;
+}
+
+.footer-columns h3 {
+  color: #e75b89;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #ffb6c1;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns li {
+  margin-bottom: 8px;
+}
+
+/* Links normales */
+.footer-columns a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-columns a:hover {
+  color: #e75b89;
+}
+
+/* Botones del footer estilo "link" */
+.footer-columns button {
+  background: none;      /* Quita el fondo de formulario */
+  border: none;          /* Quita el borde */
+  padding: 0;            /* Quita el padding predeterminado */
+  font: inherit;         /* Hereda la fuente del footer */
+  color: #333;           /* Mismo color que los li */
+  cursor: pointer;       /* Mantiene el cursor de pointer */
+  transition: color 0.3s;
+  text-align: left;      /* Igual que los li */
+}
+
+.footer-columns button:hover {
+  color: #e75b89;        /* Mismo hover que los links */
+}
+
+/* Iconos sociales */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #e75b89;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ff6699;
+}
+
+/* Footer inferior */
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ffb6c1;
+  margin-top: 50px;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #777;
+  background-color: #ffdce9;
+}
+
+/* Responsive: móviles */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .footer-columns > div {
+    margin-bottom: 25px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-about p {
+    max-width: 100%;
+    margin: auto;
+  }
+}

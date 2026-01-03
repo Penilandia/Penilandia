@@ -1,0 +1,120 @@
+/* ---------- CHECKOUT PAGE ---------- */
+.checkout-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.checkout-page h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ff8c42;
+}
+
+/* ---------- LISTA DE PRODUCTOS ---------- */
+.checkout-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* Item individual */
+.checkout-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkout-item:last-child {
+  border-bottom: none;
+}
+
+/* Imagen del producto */
+.checkout-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+/* Info del producto */
+.checkout-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-item-name {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.checkout-item-price {
+  font-size: 14px;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* ---------- TOTAL ---------- */
+.checkout-total {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  color: #333;
+}
+
+/* ---------- BOTÓN WHATSAPP ---------- */
+.btn-confirm {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px 0;
+  background-color: #ff8c42;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-confirm:hover {
+  background-color: #e6782f;
+}
+
+/* ---------- BOTÓN VOLVER ---------- */
+.btn-back {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff8c42;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+  .checkout-page {
+    margin: 20px auto;
+  }
+
+  .checkout-item-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .checkout-item-name {
+    font-size: 14px;
+  }
+}
