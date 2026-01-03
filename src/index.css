@@ -1168,3 +1168,43 @@ a.product-info h2 {
     bottom: 15px;
   }
 }
+
+/* ===== FIX MOBILE OVERFLOW ===== */
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* ===== WHATSAPP FLOAT BUTTON MOBILE FIX ===== */
+.whatsapp-float {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    right: 12px;
+    bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero,
+  .product-list,
+  .checkout-container,
+  .product-detail-card,
+  .cart-page,
+  .horizontal-form {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
